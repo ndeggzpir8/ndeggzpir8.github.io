@@ -38,7 +38,7 @@ p {
 .character-container{
     position: absolute;
     top: 0;
-    left: 25;
+    left: 0;
 }
 
 .character{
