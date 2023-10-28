@@ -51,7 +51,7 @@ p {
 @media screen and (max-width: 767px) {
     .character-container {
         text-align: left; /*Center the character horizontally*/ 
-        position: relative; /* Remove absolute positioning for mobile */
+        position: absolute; /* Remove absolute positioning for mobile */
         top: -100px;
         left: -45px;
     }
