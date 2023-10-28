@@ -3,6 +3,7 @@ body {
     font-family: 'Cursive', sans-serif;
     margin: 0;
     padding: 0;
+    /*background-color: burlywood;*/
     text-align: center;
     background-image: url(https://images.unsplash.com/photo-1651527567593-32c04202ed85?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
     background-size: cover;
@@ -24,7 +25,6 @@ h1 {
 main {
     margin: 20px;
     padding: 20px;
-    /*background-color: whitesmoke;*/
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -36,8 +36,7 @@ p {
     color: #333;
 }
 
-/* Larger screens (tablets and desktops) */
-.character-container {
+.character-container{
     position: absolute;
     top: 10px;
     left: 350px;
@@ -51,8 +50,8 @@ p {
 /* For smaller screens (mobile) */
 @media screen and (max-width: 767px) {
     .character-container {
-        text-align: left;
-        positioning: relative;
+        text-align: left; /*Center the character horizontally*/ 
+        position: relative; /* Remove absolute positioning for mobile */
         top: -100px;
         left: -45px;
     }
@@ -62,4 +61,5 @@ p {
         height: auto;
     }
 }
+
 
