@@ -38,19 +38,18 @@ p {
 /* Larger screens (tablets and desktops) */
 .character-container {
     position: absolute;
-    top: 50px;
-    left: 0;
+    top: 10px;
+    left: 350px;
 }
 
 /* For smaller screens (mobile) */
 @media screen and (max-width: 767px) {
     .character-container {
-        text-align: center; /* Center the character horizontally */
-        position: relative; /* Remove absolute positioning for mobile */
+        
     }
 }
 
 .character {
-    width: 100px;
+    width: 200px;
     height: auto;
 }
