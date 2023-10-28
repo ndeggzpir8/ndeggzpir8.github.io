@@ -38,10 +38,10 @@ p {
 .character-container{
     position: absolute;
     top: 0;
-    left: 75;
+    left: 25;
 }
 
 .character{
-    width: 300px;
+    width: 100px;
     height: auto;
 }
