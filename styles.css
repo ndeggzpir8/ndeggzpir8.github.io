@@ -38,8 +38,8 @@ p {
 /* Larger screens (tablets and desktops) */
 .character-container {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 30px;
+    left: 25px;
 }
 
 /* For smaller screens (mobile) */
