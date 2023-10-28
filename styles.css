@@ -14,16 +14,6 @@ header {
     padding: 20px;
 }
 
-.character-container{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.character {
-    width: 100px;
-    height: auto;
-}
-
 h1 {
     font-family: 'Pacifico', cursive;
     font-size: 48px;
@@ -43,4 +33,15 @@ p {
     line-height: 1.6;
     font-family: 'Dancing Script', cursive;
     color: #333;
+}
+
+.character-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.character{
+    width: 100px;
+    height: auto;
 }
