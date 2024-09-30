@@ -11,11 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const carList = document.getElementById('carList');
     if (carList) {
         const cars = [
-            { make: 'Toyota', model: 'Corolla', year: 2020, image: 'toyota-corolla.jpeg' },
-            { make: 'Honda', model: 'Civic', year: 2019, image: 'honda-civic.png' },
-            { make: 'Ford', model: 'Mustang', year: 2021, image: 'ford-mustang.jpeg' },
-            { make: 'BMW', model: 'X5', year: 2022, image: 'bmw-x5.jpeg' },
-            { make: 'Mercedes', model: 'SLS AMG', year: 2021, image: 'sls amg.jpeg' }
+            { make: 'Toyota', model: 'Corolla', year: 2020, image: 'images/toyota-corolla.jpeg' },
+            { make: 'Honda', model: 'Civic', year: 2019, image: 'images/honda-civic.png' },
+            { make: 'Ford', model: 'Mustang', year: 2021, image: 'images/ford-mustang.jpeg' },
+            { make: 'BMW', model: 'X5', year: 2022, image: 'images/bmw-x5.jpeg' },
+            { make: 'Mercedes', model: 'SLS AMG', year: 2021, image: 'images/sls amg.jpeg' }
         ];
 
         cars.forEach(car => {
